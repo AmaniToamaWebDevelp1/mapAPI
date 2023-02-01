@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <title>Maps API</title>
+</head>
+<body>
+    <h1>Welcome in my API</h1>
+   
+    <div class="mydes">In my API you can find your location in google map </div>
+     <div id="map" class="loca">
+       
+         
+     </div>
+     <div style="margin-top: 20px;" class="mydes">     
+        <div id="lat"></div>
+        <div id="lgn"></div></div>
+
+   
+    
+
+     
+     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8m0Koz2O2P7f4u1LJ_HtHto8Rnc3_ZKc&callback=getData"
+        async defer></script>
+        <script src="app.js"></script>
+    </body>
+</html>

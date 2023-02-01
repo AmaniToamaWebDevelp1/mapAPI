@@ -1,0 +1,42 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap'); 
+  @import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+body{
+    background: rgb(1, 1, 1);
+   
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+   
+  
+}
+h1{
+    font-family:  'Aboreto', cursive;;
+    text-align: center;
+    color: #797209;
+    text-shadow: rgb(200, 202, 122) 2px 2px 5px ;
+}
+.mydes{
+
+    font-family: 'Poppins', sans-serif;
+    text-shadow: rgba(154, 137, 137, 0.434) 2px 2px 5px ;
+    color: rgb(102, 105, 109);
+
+}
+.loca{
+    width: 400px;
+    height: 390px;
+    margin-top: 20px;
+    display: grid;
+
+}
+.btn{
+    background-color: azure;
+    border: 1px solid #000;
+    color :rgba(154, 137, 137, 0.434);
+}
